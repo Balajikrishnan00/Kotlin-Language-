@@ -23,6 +23,9 @@ fun main() {
         }
         println()
     }
+
     println("----------------------------------------")
-    println("Loop")
+    println("while Loop")
+
+
 }
