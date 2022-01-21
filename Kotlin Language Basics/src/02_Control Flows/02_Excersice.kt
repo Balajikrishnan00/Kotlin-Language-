@@ -8,8 +8,8 @@ fun main() {
         is String -> println("${data.javaClass}")
         is Double -> println("${data.javaClass}")
 
-
-
-
     }
+
+    val n1=123
+
 }
