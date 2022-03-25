@@ -10,10 +10,9 @@ class Bank constructor(aHolderName:String="Empty",aNumber:Long=0){
 
     }
 
-    constructor():this("new user",0){
+    constructor(aHolderName: String):this("new user",0){
 
     }
-
 
     fun manager(){
         println("I am a Manager")
@@ -21,10 +20,10 @@ class Bank constructor(aHolderName:String="Empty",aNumber:Long=0){
         println("tell me Your AccountNumber:$accountNumber")
     }
 
-
 }
 
 fun main() {
+
     val user1=Bank("balaji",123456)
     user1.manager()
     println( user1.userName)
@@ -36,8 +35,8 @@ fun main() {
 
     println("------------------------------------------")
 
-    val user3=Bank(aNumber = 10201)
-
+    val user3=Bank("Kotlin")
+    user3.manager()
 
 
 }
