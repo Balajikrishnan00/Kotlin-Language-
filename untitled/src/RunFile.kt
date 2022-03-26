@@ -33,6 +33,9 @@ fun main() {
     val name:String="Balaji"
     val fullName=name.Add("Krishnan")
     println(fullName)
+
+    println( name.Compare(name))
+
 }
 
 infix fun Int.GraterValue(other:Int):Int{
