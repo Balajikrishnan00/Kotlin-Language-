@@ -1,0 +1,6 @@
+package Enum
+
+
+fun main() {
+    
+}
