@@ -12,4 +12,3 @@ fun String.add(s1:String,s2:String):String{
 fun String.Compare(s:String):Boolean{
     return this == s
 }
-
