@@ -25,13 +25,17 @@ fun main() {
     val A=10
     val grater=A.GraterValue(20)
     println(grater)
-}
-fun String.add(s1:String,s2:String):String{
 
-    return this + s1 + s2
+    val a=20
+    val b=a GraterValue 20
+    println(b)
+
+    val name:String="Balaji"
+    val fullName=name.Add("Krishnan")
+    println(fullName)
 }
 
-fun Int.GraterValue(other:Int):Int{
+infix fun Int.GraterValue(other:Int):Int{
     if (this>other)
         return this
     else
