@@ -12,8 +12,8 @@ package `9Hours`
 // List
 
 class FavoriteFood{
-
     var name="unknown"
+    var ingredients= mutableListOf<String>("")
 
 
 

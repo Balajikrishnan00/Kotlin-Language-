@@ -56,4 +56,7 @@ fun main(array: Array<String>):Unit {
     val user=User()
     user.firstName="Balaji"
     user.lastName="Krishnan"
+
+    objectone.printUserinfo()
+
 }
