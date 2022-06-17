@@ -13,8 +13,7 @@ data class Student(
     val age:Int,
 )
 data class Students(
-    var data: Array<User>
-
+    var data: List<User>
 )
 
 
